@@ -84,7 +84,7 @@ public class LambdaTestJBehaveRunner {
         // 1. Mandatory W3C standard capabilities
         Map<String, Object> ltOptions = new java.util.HashMap<>();
         ltOptions.put("isRealMobile", true);
-        ltOptions.put("app", "lt://APP10160622431766424164986229");
+        ltOptions.put("app", "<your_app_id>");
 
         // 2. Load Environment Specific Capabilities (deviceName, platformVersion, etc.)
         Map<String, String> envCapabilities = (Map<String, String>) envs.get(taskID);
